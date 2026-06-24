@@ -1,0 +1,42 @@
+2.5) Logic:-
+a)Take three numbers
+b)Comare all three
+c)Print the largest number
+Example:-
+Input: 5 15 10
+Output: 15 is largest
+
+#C
+#include <stdio.h>
+int main() {
+    int a, b, c;
+    printf("Enter three numbers: ");
+    scanf("%d %d %d", &a, &b, &c);
+    if(a >= b && a >= c)
+        printf("%d is largest", a);
+    else if(b >= a && b >= c)
+        printf("%d is largest", b);
+    else
+        printf("%d is largest", c);
+    return 0;
+}
+#Python
+a = int(input())
+b = int(input())
+c = int(input())
+if a >= b and a >= c:
+    print(a, "is largest")
+elif b >= a and b >= c:
+    print(b, "is largest")
+else:
+    print(c, "is largest")
+#JavaScript
+let a = 5;
+let b = 15;
+let c = 10;
+if(a >= b && a >= c)
+    console.log(a + " is largest");
+else if(b >= a && b >= c)
+    console.log(b + " is largest");
+else
+    console.log(c + " is largest");
