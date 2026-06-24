@@ -1,0 +1,31 @@
+2.10)Logic:-
+a)Take age.
+b) If age ≥ 18 → Eligible.
+c) Else → Not Eligible.
+Example:-
+Input: 20
+Output: Eligible to Vote
+
+#C
+#include <stdio.h>
+int main() {
+    int age;
+    scanf("%d", &age);
+    if(age >= 18)
+        printf("Eligible to Vote");
+    else
+        printf("Not Eligible");
+    return 0;
+}
+#Python
+age = int(input())
+if age >= 18:
+    print("Eligible to Vote")
+else:
+    print("Not Eligible")
+#JavaScript
+let age = 20;
+if(age >= 18)
+    console.log("Eligible to Vote");
+else
+    console.log("Not Eligible");
