@@ -1,0 +1,15 @@
+1.9) Logic:-
+a)Divide obatined marks by total marks 
+b)Multiply by 100
+Example:-
+450/500
+Percentage=90%
+Formula:- Percentage = (obtained/total)*100
+
+#C
+per=(obtained*100.0)/total; // total is given 
+#Python
+per=(obtained*100)/total # total is given 
+#Javascript
+let per=(obtained*100)/total; // total is given 
+
