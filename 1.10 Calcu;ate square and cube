@@ -1,0 +1,17 @@
+1.10) Logic:-
+Square: n X n
+Cube: n X n X n
+Example:-
+n=5
+Square=25
+cube=125
+
+#C
+Square=n*n;
+Cube=n*n*n;
+#Python
+Square=n*2
+Cube=n*3
+#Javascript
+Square=n*n;
+Cube=n*n*n;
