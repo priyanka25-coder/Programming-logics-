@@ -1,0 +1,26 @@
+2.1) Logic:-
+a)Take a number
+b)Divide by 2
+c)check remainder
+d)if remainder = 0-->
+e)Else-->Odd
+Example:-
+input:8
+8 % 2 = 0
+Output:Even
+
+#C
+if(num % 2 == 0)
+ printf("Even");
+else:
+ printf("Odd");
+ #Python
+if(num % 2 == 0)
+ printf("Even")
+else:
+ printf("Odd")
+ #Javascript
+if(num % 2 == 0)
+ console.log("Even");
+else:
+ console.log("Odd");
