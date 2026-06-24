@@ -1,0 +1,19 @@
+1.4) Logic :-
+Convert one data type into another
+Example:-"25"-->25
+
+#C
+char str[] = "123";
+int num = atoi(str);   // String → Int
+float f = (float)num;  // Int → Float
+int x = (int)10.75;    // Float → Int
+#Python
+num = int("123")      # String → Int
+f = float(10)         # Int → Float
+x = int(10.75)        # Float → Int
+s = str(123)          # Int → String
+#Javascript
+let num = Number("123");   // String → Number
+let str = String(123);     // Number → String
+let x = parseInt(10.75);   // Float → Int
+let b = Boolean(1);        // Number → Boolean
