@@ -1,0 +1,20 @@
+1.5) Logic :-
+a)store first value in temp
+b)put second into first
+c)put temp into second
+Example:- 
+A=10 B=20
+AFTER SWAP: A=20 B=10
+
+#C
+temp=a;
+a=b;
+b=temp;
+#Python
+temp = a
+a = b
+b = temp
+#Javascript
+temp = a;
+a = b;
+b = temp;
