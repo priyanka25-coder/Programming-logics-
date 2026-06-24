@@ -1,0 +1,44 @@
+2.11)Logic:-
+0-12    Child
+13-19   Teenager
+20-59   Adult
+60+     Senior Citizen
+Example:-
+Input: 15
+Output: Teenager
+
+#C
+#include <stdio.h>
+int main() {
+    int age;
+    scanf("%d", &age);
+    if(age <= 12)
+        printf("Child");
+    else if(age <= 19)
+        printf("Teenager");
+    else if(age <= 59)
+        printf("Adult");
+    else
+        printf("Senior Citizen");
+    return 0;
+}
+#Python
+age = int(input())
+if age <= 12:
+    print("Child")
+elif age <= 19:
+    print("Teenager")
+elif age <= 59:
+    print("Adult")
+else:
+    print("Senior Citizen")
+#JavaScript
+let age = 15;
+if(age <= 12)
+    console.log("Child");
+else if(age <= 19)
+    console.log("Teenager");
+else if(age <= 59)
+    console.log("Adult");
+else
+    console.log("Senior Citizen");
