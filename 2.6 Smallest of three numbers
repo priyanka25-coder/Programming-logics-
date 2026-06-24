@@ -1,0 +1,41 @@
+2.6)Logic:-
+a)Take three numbers.
+b) Compare all three.
+c) Print the smallest number.
+Example:-
+Input: 5 15 10
+Output: 5 is smallest
+
+#C
+#include <stdio.h>
+int main() {
+    int a, b, c;
+    scanf("%d %d %d", &a, &b, &c);
+    if(a <= b && a <= c)
+        printf("%d is smallest", a);
+    else if(b <= a && b <= c)
+        printf("%d is smallest", b);
+    else
+        printf("%d is smallest", c);
+    return 0;
+}
+#Python
+a = int(input())
+b = int(input())
+c = int(input())
+if a <= b and a <= c:
+    print(a, "is smallest")
+elif b <= a and b <= c:
+    print(b, "is smallest")
+else:
+    print(c, "is smallest")
+#JavaScript
+let a = 5;
+let b = 15;
+let c = 10;
+if(a <= b && a <= c)
+    console.log(a + " is smallest");
+else if(b <= a && b <= c)
+    console.log(b + " is smallest");
+else
+    console.log(c + " is smallest");
