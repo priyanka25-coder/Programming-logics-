@@ -1,0 +1,49 @@
+2.9)Logic:-
+a)Take marks.
+b) Compare ranges.
+c) Assign grade.
+Example:-
+Input: 85
+Output: Grade B
+
+#C
+#include <stdio.h>
+int main() {
+    int marks;
+    scanf("%d", &marks);
+    if(marks >= 90)
+        printf("Grade A");
+    else if(marks >= 80)
+        printf("Grade B");
+    else if(marks >= 70)
+        printf("Grade C");
+    else if(marks >= 60)
+        printf("Grade D");
+    else
+        printf("Grade F");
+    return 0;
+}
+#Python
+marks = int(input())
+if marks >= 90:
+    print("Grade A")
+elif marks >= 80:
+    print("Grade B")
+elif marks >= 70:
+    print("Grade C")
+elif marks >= 60:
+    print("Grade D")
+else:
+    print("Grade F")
+#JavaScript
+let marks = 85;
+if(marks >= 90)
+    console.log("Grade A");
+else if(marks >= 80)
+    console.log("Grade B");
+else if(marks >= 70)
+    console.log("Grade C");
+else if(marks >= 60)
+    console.log("Grade D");
+else
+    console.log("Grade F");
