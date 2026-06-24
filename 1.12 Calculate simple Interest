@@ -1,0 +1,18 @@
+1.12) Logic:-
+Formula:-
+SI=(P X R X T)/100
+P=Principle
+R=Rate
+T=Time
+Example:-
+P=1000
+R=10
+T=2
+SI=200
+
+#C
+si=(p*r*t)/100;
+#Python
+si=(p*r*t)/100
+#Javascript
+let si=(p*r*t)/100;
