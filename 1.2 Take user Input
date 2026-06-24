@@ -1,0 +1,11 @@
+1.2) Logic :-
+a)Ask user for value
+b)Store it in Variable
+Example:- Input- SONA (its a string not character)
+#C
+char name[20];
+printf("%s",name);
+#Python
+name = input("Enter Your name: ")
+#Javascript
+let name = prompt("Enter name");
