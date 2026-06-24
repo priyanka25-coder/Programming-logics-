@@ -1,0 +1,19 @@
+Rectangle 
+Logic:-
+a)Area: length X width
+b)Perimeter: 2 X (length + width) 
+Example:-
+length=10 width=5
+area=50
+perimeter=30
+
+#C
+area=1*w;
+perimeter=2*(1+w);
+#Python
+area=1*w
+perimeter=2*(1+w)
+#Javascript
+area=1*w;
+perimeter=2*(1+w);
+
