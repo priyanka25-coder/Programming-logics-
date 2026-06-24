@@ -1,0 +1,21 @@
+1.6) Logic:-
+a)Add both numbers
+b)Recover values using substraction
+Example
+A=20 B=10
+AFTER SWAP :
+A=10 B=20
+
+#C 
+a=a+b;
+b=a-b;
+a=a-b;
+#Python
+a=a+b     
+b=a-b
+ OR  (YOU CAN WRITE LIKE THIS ALSO)
+a,b=b,a
+#Javasript
+a=a+b;
+b=a-b;
+a=a-b;
