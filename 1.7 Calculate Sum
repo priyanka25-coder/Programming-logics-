@@ -1,0 +1,12 @@
+1.7) Logic:-
+a)Take two numbers
+b)Add them
+Example:- 10+20=30 
+Formula:- sum=a+b
+
+#C
+sum=a+b;
+#Python
+sum=a+b
+#Javascript
+let sum=a+b;
