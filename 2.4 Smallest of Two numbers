@@ -1,0 +1,36 @@
+a)Take two numbers
+b)Compare them
+c)Print the smallest number
+Example:-
+Input:10 20
+Output:10 is smalllest
+
+#C
+#include <stdio.h>
+int main(){
+int a, b;
+    printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    if(a < b)
+        printf("%d is smallest", a);
+    else
+        printf("%d is smallest", b);
+    return 0;
+}
+#Python
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a < b:
+    print(a, "is smallest")
+else:
+    print(b, "is smallest")
+#Javascript
+let a = 10;
+let b = 20;
+if(a < b)
+    console.log(a + " is smallest");
+else
+    console.log(b + " is smallest");
+
+
+
