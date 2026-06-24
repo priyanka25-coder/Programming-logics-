@@ -1,0 +1,35 @@
+2.3) Logic
+a)Take two numbers
+b)Compare them
+c)Print the larger number
+Example:-
+input: 10 20
+Output: 20 is largest
+
+#C
+#include <stdio.h>
+int main() {
+    int a, b;
+   printf("Enter two numbers: ");
+    scanf("%d %d", &a, &b);
+    if(a > b)
+        printf("%d is largest", a);
+    else
+        printf("%d is largest", b);
+    return 0;
+}
+#Python
+a = int(input("Enter first number: "))
+b = int(input("Enter second number: "))
+if a > b:
+    print(a, "is largest")
+else:
+    print(b, "is largest")
+#Javascript
+let a = 10;
+let b = 20;
+if(a > b)
+    console.log(a + " is largest");
+else
+    console.log(b + " is largest");
+
