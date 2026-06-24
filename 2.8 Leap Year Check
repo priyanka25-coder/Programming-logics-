@@ -1,0 +1,32 @@
+2.8)Logic:-
+a)If divisible by 400 → Leap Year.
+b) Else if divisible by 100 → Not Leap Year.
+c) Else if divisible by 4 → Leap Year.
+d) Else → Not Leap Year.
+Example:-
+Input: 2024
+Output: Leap Year
+
+#C
+#include <stdio.h>
+int main() {
+    int year;
+    scanf("%d", &year);
+    if((year % 400 == 0) || (year % 4 == 0 && year % 100 != 0))
+        printf("Leap Year");
+    else
+        printf("Not Leap Year");
+    return 0;
+}
+#Python
+year = int(input())
+if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+    print("Leap Year")
+else:
+    print("Not Leap Year")
+#JavaScript
+let year = 2024;
+if((year % 400 === 0) || (year % 4 === 0 && year % 100 !== 0))
+    console.log("Leap Year");
+else
+    console.log("Not Leap Year");
