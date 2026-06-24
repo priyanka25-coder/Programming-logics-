@@ -1,0 +1,44 @@
+2.2)Logic:-
+a)Take a number
+b)if number>0-->Possitive
+c)Else if number<0-->Negative
+d)Else-->Zero
+Example:-
+input:5
+Output:Negative
+Condition
+num>0
+num<0
+num==0
+
+#C
+#include <stdio.h>
+int main() {
+    int num = -5;
+
+    if (num > 0)
+        printf("Positive");
+    else if (num < 0)
+        printf("Negative");
+    else
+        printf("Zero");
+
+    return 0;
+}
+#Python
+num = -5
+if num > 0:
+    print "Positive"
+elif num < 0:
+    print "Negative"
+else:
+    print "Zero"
+#Javascript
+let num = -5;
+if (num > 0) {
+    console.log("Positive");
+} else if (num < 0) {
+    console.log("Negative");
+} else {
+    console.log("Zero");
+}
