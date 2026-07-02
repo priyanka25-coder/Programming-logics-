@@ -36,15 +36,16 @@ elif op == '*':
     print(a * b)
 elif op == '/':
     print(a / b)
-#JavaScript
-let a = 10;
-let b = 20;
-let op = '+';
-if(op === '+')
+#JavaScript(browser version)
+let a = Number(prompt());
+let op = prompt();
+let b = Number(prompt());
+if (op === "+") {
     console.log(a + b);
-else if(op === '-')
+} else if (op === "-") {
     console.log(a - b);
-else if(op === '*')
+} else if (op === "*") {
     console.log(a * b);
-else if(op === '/')
+} else if (op === "/") {
     console.log(a / b);
+}
