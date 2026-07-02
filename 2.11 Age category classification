@@ -33,12 +33,13 @@ elif age <= 59:
 else:
     print("Senior Citizen")
 #JavaScript
-let age = 15;
-if(age <= 12)
+let age = Number(prompt("Enter your age:"));
+if (age <= 12) {
     console.log("Child");
-else if(age <= 19)
+} else if (age <= 19) {
     console.log("Teenager");
-else if(age <= 59)
+} else if (age <= 59) {
     console.log("Adult");
-else
+} else {
     console.log("Senior Citizen");
+}
